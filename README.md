@@ -16,6 +16,11 @@ TUTORIAL
 + [Hands-on Worksheet](https://github.com/ekmolloy/trees-in-the-desert-tutorial)
 
 
+CHANGES
+-------
+If subsets are created by deleting edges from a starting tree, then the starting tree can be used to define the spanning tree on subsets given to TreeMerge as input. TreeMerge no longer uses the method described in Section 3.3 for deriving the spanning tree on subsets from a starting tree; it now uses the approach described in Theorem 9, but modified to handle the special case where edges that are less than two edges apart in the starting tree are deleted.
+
+
 CITATION
 --------
 ```
